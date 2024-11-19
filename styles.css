@@ -13,8 +13,10 @@ main {
 
 #sixteen-by-sixteen-container {
     border: 3px solid red;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    height: 326px;
+    width: 326px;
 }
 
 #divs {
