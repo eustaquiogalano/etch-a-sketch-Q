@@ -1,11 +1,12 @@
 const sixteenBySixteenContainer = document.querySelector('#sixteen-by-sixteen-container');
+const clearButton = document.querySelector('#clear-button');
 
 /////////////////////////////////////////////////////////////////////////////////
 
 function createDivs() {
     let generateDivs = '';
 
-    for (let i = 0; i < 256; i++) {
+    for (let i = 0; i < 6400; i++) {
         // create 256 pieces of div made of string
         generateDivs += `<div class='divs div${i}'></div>`;
     }
@@ -25,6 +26,11 @@ function addListenersToDivs(listOfDivs) {
     });
 }
 
+clearButton.addEventListener('click', () => {
+    divs.forEach(element => {
+        element.style.backgroundColor = 'white';
+    })
+})
 /////////////////////////////////////////////////////////////////////////////////
 
 createDivs();

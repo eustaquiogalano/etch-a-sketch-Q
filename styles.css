@@ -6,21 +6,29 @@
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+#clear-button {
+    margin-bottom: 50px;
+    height: 50px;
+    width: 100px;
+    font-size: larger;
 }
 
 #sixteen-by-sixteen-container {
     border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
-    height: 326px;
-    width: 326px;
+    height: 806px;
+    width: 806px;
 }
 
 .divs{
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
     border: 1px solid gray;
 }
