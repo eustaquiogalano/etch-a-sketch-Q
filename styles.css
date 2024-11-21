@@ -24,7 +24,15 @@ main {
     display: flex;
     flex-wrap: wrap;
     height: 806px;
+    width: 806px; 
+}
+
+#cover {
+    background-color: transparent;
+    height: 806px;
     width: 806px;
+    position: absolute;
+    top: 130px;
 }
 
 .divs{
