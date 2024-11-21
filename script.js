@@ -27,11 +27,11 @@ function addListenersToDivs(listOfDivs) {
     });
 }
 
-sixteenBySixteenContainer.addEventListener('click', () => {
+sixteenBySixteenContainer.addEventListener('mouseup', () => {
     cover.style.display = 'block';
 });
 
-cover.addEventListener('click', () => {
+cover.addEventListener('mousedown', () => {
     cover.style.display = 'none';
 });
 
