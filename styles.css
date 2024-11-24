@@ -35,8 +35,12 @@ main {
     top: 130px;
 }
 
-.divs{
-    height: 10px;
-    width: 10px;
+.display-toggle {
+    display: none;
+}
+
+.box {
+    height: 8px;
+    width: 8px;
     border: 1px solid gray;
 }
